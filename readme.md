@@ -1,0 +1,1 @@
+https://github.com/spring-projects/spring-petclinic/ is used to test the custom annotations.
