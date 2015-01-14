@@ -449,8 +449,8 @@
 					<path>/petclinic</path>
 				</configuration>
 			</plugin>
+                        
 		</plugins>
 	</build>
-
 	<url>demopetclinic</url>
 </project>

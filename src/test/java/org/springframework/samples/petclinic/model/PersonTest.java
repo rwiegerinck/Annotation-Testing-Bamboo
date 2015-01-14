@@ -25,7 +25,7 @@ public class PersonTest {
 
     @Test
     public void testPTest() {
-        PtestRunTests pt = new PtestRunTests();
+        PtestRun pt = new PtestRun();
    //     pt.main(null);
         assertEquals("2","2");
     }

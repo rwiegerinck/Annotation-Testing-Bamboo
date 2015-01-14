@@ -1,1 +1,1 @@
-mvn clean install
+mvn clean install exec:java -Dexec.mainClass=org.springframework.samples.petclinic.model.PtestRun -Dexec.args="args1 args2" -Dexec.classpathScope="test"
