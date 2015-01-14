@@ -23,6 +23,18 @@ public class PersonTest {
     public PersonTest() {
     }
 
+    @Test
+    public void testPTest() {
+        PtestRunTests pt = new PtestRunTests();
+   //     pt.main(null);
+        assertEquals("2","2");
+    }
+ 
+    @Test
+    public void testGetFirstName2() {
+        assertEquals("2","2");
+    }
+    
     /**
      * Test of getFirstName method, of class Person.
      */
