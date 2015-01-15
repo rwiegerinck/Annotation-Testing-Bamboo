@@ -19,8 +19,7 @@ public class PtestRun {
          String dir = System.getProperty("user.dir") + "\\src\\test\\java\\" ;
          System.out.println("3:"+ dir);
          PTestReport pt = new PTestReport();
-         System.out.println(PtestRun.class.getProtectionDomain().getCodeSource().getLocation().getPath());
-         String dir = System.getProperty("user.dir") + "\\src\\test\\java\\" ;
+       //  String dir = System.getProperty("user.dir") + "\\src\\test\\java\\" ;
          String[] args2 = {dir};
          pt.main(args2);
      }
