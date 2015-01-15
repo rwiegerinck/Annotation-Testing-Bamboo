@@ -41,9 +41,6 @@ public class ValidatorTests {
         person.setFirstName("");
         person.setLastName("smith");
         int x = 0;
-       // for(int i = 0; i < 15; i++) {
-       //     System.out.println(i);
-       // }
         
         Validator validator = createValidator();
         Set<ConstraintViolation<Person>> constraintViolations = validator.validate(person);

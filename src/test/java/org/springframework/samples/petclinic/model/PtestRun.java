@@ -6,8 +6,6 @@
 
 package org.springframework.samples.petclinic.model;
 import customAnnotations.PTestReport;
-import static org.junit.Assert.assertEquals;
-import org.junit.Test;
 
 /**
  *

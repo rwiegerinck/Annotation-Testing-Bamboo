@@ -86,7 +86,13 @@
                 <version>2.1</version>
                 <scope>provided</scope>
         </dependency>
-
+<dependency>
+      <groupId>CustomAnno</groupId>  
+       <artifactId>customAnnotations.jar</artifactId>  
+       <version>1.0</version> 
+      <scope>system</scope>
+<systemPath>${project.basedir}/lib/customAnnotations.jar</systemPath>
+</dependency>
         <dependency>
                 <groupId>org.glassfish.web</groupId>
                 <artifactId>jstl-impl</artifactId>
@@ -310,11 +316,6 @@
 			<artifactId>datatables-export-itext</artifactId>
 			<version>${dandelion.version}</version>
 		</dependency>
-	 <dependency>
-	  <groupId>CustomAnno</groupId>
-	  <artifactId>customAnnotations.jar</artifactId>
-	  <version>1.0</version>
-	 </dependency>
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
